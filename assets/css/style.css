@@ -266,6 +266,11 @@ body
 
 @media screen and (max-width:768px)
 {
+
+}
+    
+@media screen and (max-width:640px)
+{
     .navContent{
         position: relative;
     }
@@ -289,13 +294,11 @@ body
     }
 
     .brockPic{
-        width: 20%;
-        float: left;
+        width: 100%;
     }
 
     .miniTitle{
         width: 100%;
-        float: left;
     }
 
     .paragraphs{
@@ -320,10 +323,19 @@ body
 
     footer{
         position: relative;
+        width: 100%;
     }
-}
 
-@media screen and (max-width:640px)
-{
-    
+    .aboutMe{
+        width: 100%;
+        text-align: center;
+    }
+
+    html{
+        width: 100%;
+    }
+
+    p{
+        width: 100%;
+    }
 }
