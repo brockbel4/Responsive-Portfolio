@@ -236,12 +236,9 @@ input[type=submit]:focus
 
 footer
 {
-    /* width: 100%; */
     height: 50px;
-    /* margin-top: 200px; */
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
-    /* display: inline-block; */
     text-align: center;
     padding-top: 25px;
     position:absolute;
@@ -263,26 +260,111 @@ body
 
 @media screen and (max-width:980px)
 {
+    .navContent{
+        position: relative;
+    }
+
+    .name{
+        width: 60%;
+    }
+
+    .navLinks{
+        width: 30%;
+    }
+
+    .topNavBar{
+        position: relative;
+        width: 100%;
+    }
+
+    .myDescription{
+        width: 60%;
+        height: 100%;
+        border: 0px;
+    }
+
+    .myPortfolio{
+        width: 60%;
+        border: 0px;
+    }
+
+    .brockPic{
+        width: 60%;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    .miniTitle{
+        width: 100%;
+        text-align: left;
+    }
+
+    .paragraphs{
+        width: 100%;
+        text-align: left;
+        margin-bottom: 5%
+    }
+
+    .socialSection{
+        width: 30%;
+        text-align: center;
+        border: 0px;
+        margin-top: 10%;
+    }
+
+    .connect{
+        width: 100%;
+        text-align: center;
+    }
+
     
+    .aboutMe{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer{
+      position: fixed;
+    }
+
+    p{
+        width: 100%;
+    }
+
+    .portfolioImages{
+        width: 80%
+    }
+
+    input{
+        position: static;
+    }
+
+    #messageLabel{
+        width: 100%;
+        float: left;
+    }
+
+    #submitButton{
+        width: 100%;
+    }
+
+    input[type=text], select{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:768px)
-{
-
-}
-    
-@media screen and (max-width:640px)
 {
     .navContent{
         position: relative;
     }
 
     .name{
-        width: 100%;
+        width: 60%;
     }
 
     .navLinks{
-        width: 100%;
+    width: 30%;
     }
 
     .topNavBar{
@@ -296,14 +378,20 @@ body
         border: 0px;
     }
 
+    .myPortfolio{
+        width: 100%;
+        border: 0px;
+    }
+
     .brockPic{
-        width: 50%;
-        margin-right: 25%;
-        margin-left: 25%;
+        width: 30%;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .miniTitle{
         width: 100%;
+        text-align: left;
     }
 
     .paragraphs{
@@ -336,4 +424,120 @@ body
     p{
         width: 100%;
     }
+
+    .portfolioImages{
+        width: 49%
+    }
+
+    input{
+        position: static;
+    }
+
+    #messageLabel{
+        width: 100%;
+        float: left;
+    }
+
+    #submitButton{
+        width: 100%;
+    }
+
+    input[type=text], select{
+        width: 100%;
+    }
+}
+    
+@media screen and (max-width:640px)
+{
+    .navContent{
+        position: relative;
+    }
+
+    .name{
+        width: 100%;
+    }
+
+    .navLinks{
+        width: 100%;
+    }
+
+    .topNavBar{
+        position: relative;
+        width: 100%;
+    }
+
+    .myDescription{
+        width: 100%;
+        height: 100%;
+        border: 0px;
+    }
+
+    .myPortfolio{
+        width: 100%;
+        border: 0px;
+    }
+
+    .brockPic{
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    .miniTitle{
+        width: 100%;
+        text-align: left;
+    }
+
+    .paragraphs{
+        width: 100%;
+        text-align: left;
+    }
+
+    .socialSection{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        border: 0px;
+    }
+
+    .connect{
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    .aboutMe{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer{
+      position: fixed;
+    }
+
+    p{
+        width: 100%;
+    }
+
+    .portfolioImages{
+        width: 100%;
+    }
+
+    input{
+        position: static;
+    }
+
+    #messageLabel{
+        width: 100%;
+        float: left;
+    }
+
+    #submitButton{
+        width: 100%;
+    }
+
+    input[type=text], select{
+        width: 100%;
+    }
+
 }
